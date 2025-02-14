@@ -1,0 +1,16 @@
+{
+  "name": "amechinzov/ufanovo.local",
+  "description": "Модуль для проектов Уфаново",
+  "homepage": "https://github.com/amechinzov/ufanovo.local",
+  "type": "git",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.4",
+    "ext-mbstring": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ufanovo\\Local\\": "src/"
+    }
+  }
+}

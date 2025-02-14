@@ -21,7 +21,7 @@ abstract class OptionsBase
 	{
 		if (empty($filePath)) {
 			$filePath =
-				Application::getDocumentRoot() .
+				optionsbase . phpApplication::getDocumentRoot() .
 				getLocalPath("modules/{$this->moduleId}/options.php");
 		}
 
